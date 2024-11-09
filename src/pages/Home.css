@@ -17,3 +17,30 @@
     width: 3%;
     height: 3%;
   }
+
+
+  .home .card .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .home .card .edit-button,
+  .home .card .read-more {
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Green background for edit button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .home .card .read-more {
+    background-color: #008CBA; /* Blue background for read more button */
+  }
+  
+  .home .card .icon {
+    width: 20px;
+    cursor: pointer;
+  }
+  
